@@ -69,6 +69,7 @@ class ListProductsView(View):
             self.product = Product.objects.get(tr.state['id'])
 
             self.modal.get_body().nodes = [
+                H3('Delete Product'),
                 f'Are you sure you want to delete "{self.product.name}"?',
             ]
 

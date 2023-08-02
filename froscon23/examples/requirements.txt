@@ -1,0 +1,4 @@
+lona==1.14
+lona-html5-qrcode==0.1
+lona-picocss==0.4.1
+lona-chartjs==0.2.1

@@ -12,7 +12,7 @@ class Counter(Div):
     def __init__(self, value=0):
         super().__init__()
 
-        self.counter = Span('10', style={'font-size': '2em'})
+        self.counter = Span(value, style={'font-size': '2em'})
 
         self.nodes = [
             InlineButton(Icon('minus-circle'), handle_click=self.decrease),
